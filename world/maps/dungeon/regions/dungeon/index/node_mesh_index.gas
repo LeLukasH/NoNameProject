@@ -1,0 +1,14 @@
+[node_mesh_index]
+{
+	0x0010020d = t_dgn02_cnr_04b-cnvx-v01;
+	0x00100213 = t_dgn02_cnr_04c-ccav-04b-v1-l;
+	0x00100214 = t_dgn02_cnr_04c-ccav-04b-v1-r;
+	0x0010029d = t_dgn02_flr_04x04-v0;
+	0x0010029e = t_dgn02_flr_04x08-v0;
+	0x0010029f = t_dgn02_flr_08x08-v0;
+	0x00100303 = t_dgn02_str_4-8b-v1-r-side;
+	0x0010032c = t_dgn02_wal_04b-v0b;
+	0x00100345 = t_dgn02_wal_08a-tx-8b-v0-l-top;
+	0x0010034d = t_dgn02_wal_08a-v1-top;
+	0x00100351 = t_dgn02_wal_08b-v0-top;
+}
