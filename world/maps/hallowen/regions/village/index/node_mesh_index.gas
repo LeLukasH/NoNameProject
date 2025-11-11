@@ -1,0 +1,8 @@
+[node_mesh_index]
+{
+	0x00100483 = t_xxx_brdg_pillar-stg-08;
+	0x00100619 = t_xxx_flr_04x04-v0;
+	0x00100c17 = t_grs02_grs01-04x04-a;
+	0x00100c19 = t_grs02_grs01-tx-grs02-04x04-b;
+	0x00100c1a = t_grs02_grs01-tx-grs02-04x04-c;
+}
