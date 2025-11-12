@@ -1,8 +1,39 @@
 [node_mesh_index]
 {
-	0x00100483 = t_xxx_brdg_pillar-stg-08;
-	0x00100619 = t_xxx_flr_04x04-v0;
-	0x00100c17 = t_grs02_grs01-04x04-a;
+	0x00100415 = t_fh00_hburnt_1b;
+	0x0010061a = t_xxx_flr_04x04-v1;
+	0x0010061b = t_xxx_flr_04x04-v2;
+	0x0010061d = t_xxx_flr_04x08-v0;
+	0x0010061e = t_xxx_flr_08x08-v0;
+	0x0010061f = t_xxx_flr_08x08-v1;
+	0x00100721 = t_xxx_keep_cap-02x02-a;
+	0x00100799 = t_xxx_pth_04x04-a;
+	0x0010079a = t_xxx_pth_04x04-b;
+	0x0010079b = t_xxx_pth_04x04-c;
+	0x0010079d = t_xxx_pth_04x04-e;
+	0x0010079e = t_xxx_pth_04x04-f;
+	0x001007a0 = t_xxx_pth_08x04-a;
+	0x001007a2 = t_xxx_pth_08x04-c;
+	0x001007a3 = t_xxx_pth_08x04-d;
+	0x001007a4 = t_xxx_pth_08x04-e;
+	0x001007a5 = t_xxx_pth_08x04-f;
+	0x001007a8 = t_xxx_pth_08x04-i;
+	0x001007aa = t_xxx_pth_08x08-a;
+	0x001007c5 = t_xxx_rmp_cnr-ccav;
+	0x001007ed = t_xxx_rvr_12-left-c;
+	0x001007ef = t_xxx_rvr_12-right-a;
+	0x001007fc = t_xxx_rvr_12-stonebridge-ruins-a;
+	0x001007ff = t_xxx_rvr_12-tx-08-left-a;
+	0x00100800 = t_xxx_rvr_12-tx-08-left-b;
+	0x00100b51 = t_grs01_houses_generic-b-log;
+	0x00100b59 = t_grs01_houses_generic-c-log-lv1-door-top;
+	0x00100b5a = t_grs01_houses_generic-c-log-lv1;
+	0x00100b5c = t_grs01_houses_generic-c-log-stairs;
 	0x00100c19 = t_grs02_grs01-tx-grs02-04x04-b;
-	0x00100c1a = t_grs02_grs01-tx-grs02-04x04-c;
+	0x00100ce0 = t_bt_tavern-door-top;
+	0x00100ce1 = t_bt_tavern;
+	0x00100ce2 = t_bt_tavern_lv2-door-top;
+	0x00100ce3 = t_bt_tavern_lv2;
+	0x00100ce4 = t_bt_tavern_roof;
+	0x00100ce5 = t_bt_tavern_stairs;
 }
