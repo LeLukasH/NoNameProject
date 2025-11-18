@@ -1,0 +1,274 @@
+[t:template,n:ann_r02_rat]
+{
+	category_name = "1W_evil_d";
+	doc = "ann_r02_rat";
+	specializes = actor_evil;
+	[actor]
+	{
+		[skills]
+		{
+			strength =  2, 0;
+			intelligence =  2, 0;
+			dexterity =  3, 0;
+			melee =  0,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 5;
+		life = 5;
+		max_life = 5;
+		mana = 4;
+		material = teeth;
+        max_mana = 4;
+		model = m_c_edm_gr_pos_1;
+        scale_base = 0.50;
+		[voice]
+		{
+			[die]
+			{
+				* = s_e_die_rat;
+			}
+			[hit_critical]
+			{
+				* = s_e_hit_rat_SED;
+			}
+			[hit_glance]
+			{
+				* = s_e_hit_rat_SED;
+			}
+			[hit_solid]
+			{
+				* = s_e_hit_rat_SED;
+			}
+		}
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 6;
+		damage_min = 4;
+	}
+	[body]
+	{
+		avg_move_velocity = 3.000000;
+		max_move_velocity = 5;
+		[bone_translator]
+		{
+			body_anterior = bip01_head;
+			body_mid = bip01_spine;
+			body_posterior = bip01_tail;
+			kill_bone = bip01_spine;
+			shield_bone = bip01_spine;
+			weapon_bone = bip01_head;
+		}
+		[chore_dictionary]
+		{
+			chore_prefix = a_c_edm_gr_fs;
+			[chore_attack]
+			{
+				chore_stances = 0;
+				skrit = select_attack;
+				[anim_files] { 00=at; }
+			}
+			[chore_default]
+			{
+				chore_stances = 0;
+				skrit = infinite_loop;
+				[anim_files] { 00=ds; }
+			}
+			[chore_die]
+			{
+				chore_stances = 0;
+				skrit = select_transition;
+				[anim_files] { 00=di; }
+			}
+			[chore_fidget]
+			{
+				chore_stances = 0;
+				skrit = select_fidget;
+				[anim_files] { 00=dff; }
+			}
+			[chore_walk]
+			{
+				chore_stances = 0;
+				skrit = select_walk;
+				[anim_files] { 00=rl; }
+			}
+		}
+	}
+	[common]
+	{	screen_name="Snack Snatcher";
+		membership = rat, monster;
+	}
+	[defend] { defense=10; }
+   	
+	[mind]
+	{
+		jat_brain						 = world\ai\jobs\common\brain_hero.skrit
+			?actor_joins_existing_party		= true;
+
+		jat_attack_object_melee 			= world\ai\jobs\common\job_attack_object_melee.skrit
+			?run_chance 					= 1.0;
+
+		jat_fidget = world\ai\jobs\common\job_fidget.skrit
+			?social				= 0.8
+			&social_limit		= 2
+			&move_distance		= 3.00
+			&delay_min			= 7.0
+			&delay_max			= 17.0
+			&approach_dist		= 1.75
+			&friends			= "rat"
+			&still				= false;
+
+		melee_engage_range = 14.0;
+		personal_space_range = 0.7;
+		ranged_engage_range = 14.0;
+		sight_range = 14.0;
+		sight_origin_height = 1.5;
+	}
+	[physics]
+	{
+		break_effect = blood_mist;
+		break_sound = s_e_meat_explosion;
+		[break_particulate]
+		{
+			frag_glb_generic_01 = 1;
+			frag_glb_generic_02 = 1;
+			frag_glb_generic_03 = 1;
+			frag_glb_generic_04 = 1;
+			frag_glb_generic_05 = 1;
+			frag_glb_generic_06 = 1;
+			frag_glb_generic_07 = 1;
+			frag_glb_generic_08 = 1;
+		}
+	}
+	[water_effects] {}
+}
+[t:template,n:ann_r02_snapper]
+{
+	doc = "ann_r02_snapper";
+	specializes = base_mangler;
+	[actor]
+	{
+		[skills]
+		{
+			strength = 	4, 0;
+			intelligence = 	2, 0;
+			dexterity = 	3, 0;
+			melee =  		1,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 5;
+		life = 7;
+		max_life = 7;
+		mana = 4;
+		max_mana = 4;
+		scale_base = 0.90;
+		[textures]	{0=b_c_edm_mn-02;}
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 6;
+		damage_min = 3;
+	}
+	[common] { screen_name="Bitey Boo"; }
+	[defend] { defense=12; }
+	[mind] 
+	{ 
+		jat_fidget	= world\ai\jobs\common\job_fidget.skrit;
+        personal_space_range = 0.2;
+	}
+}
+[t:template,n:ann_r02_slarg]
+{
+	category_name = "1W_evil_d";
+	doc = "ann_r02_slarg";
+	specializes = base_slarg;
+	[actor]
+	{
+		[skills]
+		{
+			strength =  1, 0;
+			intelligence =  0, 0;
+			dexterity =  0, 0;
+            melee =  3,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 20;
+		life = 13;
+        max_life = 13;
+        mana = 8;
+		max_mana = 8;
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 10;
+		damage_min = 5;
+	}
+	[common] { screen_name="Slippy"; }
+    [defend] { defense=14; }
+    [mind]
+    {
+		jat_fidget	= world\ai\jobs\common\job_fidget.skrit
+			?social		= 0.35
+			&meander	= false
+			&still		= false;
+	}
+}
+[t:template,n:ann_r02_spider]
+{
+	category_name = "1W_evil_d";
+	doc = "ann_r02_spider";
+	specializes = spider_frostnid_base;
+	[actor]
+	{
+		[skills]
+		{
+			strength =  1, 0;
+			intelligence =  1, 0;
+			dexterity =  3, 0;
+            ranged =  3,  0;
+		}
+	}
+	[aspect]
+	{
+		experience_value = 51;
+		life = 19;
+        max_life = 19;
+        mana = 8;
+		max_mana = 8;
+		[voice]
+		{
+			[cast]			{ * = s_e_attack_frostnid; }
+			[die]			{ priority = high; * = s_e_die_spider; }
+			[enemy_spotted]	{ priority = high; * = s_e_call_spider_SED; }
+		}
+	}
+	[attack]
+	{
+		attack_range = 0.5;
+		damage_max = 13;
+		damage_min = 3;
+	}
+	[inventory]
+	{
+		selected_active_location = il_active_primary_spell;
+		[other] { il_active_primary_spell=spell_frostnid_freeze; }
+	}
+	[common] { screen_name="Candy Spitter"; }
+    [defend] { defense=13; }
+	[mind]
+	{
+		actor_weapon_preference			= WP_MAGIC;
+		actor_auto_switches_to_magic	= true;
+		actor_auto_switches_to_karate	= false;
+		actor_auto_switches_to_melee	= false;
+	}
+}
