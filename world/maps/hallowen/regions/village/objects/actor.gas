@@ -1,0 +1,26 @@
+[t:adwana,n:0x001001da]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = shop_magic;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  p position = 3.03368,-3.65,0.255306,0x2ec0d769;
+	}
+}
+[t:ghost,n:0x001001d8]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,-0.707107;
+	  p position = -1.89038,0,0.330286,0xf8eb99c3;
+	}
+}

@@ -1,0 +1,9 @@
+[shop_magic]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Hello. Wanna buy?";
+	  f scroll_rate = 10.000000;
+	}
+}
