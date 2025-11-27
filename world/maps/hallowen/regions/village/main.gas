@@ -1,9 +1,9 @@
 [t:region,n:region]
 {
-	created = PATRIKASUS,patri;
+	created = patrikasus,patri;
 	description = none;
   x guid = 0x00000001;
-	lastmodified = PATRIKASUS,patri;
+	lastmodified = LUKASNTB,admin;
   x mesh_range = 0x00000001;
 	notes = none;
   x scid_range = 0x00000001;

@@ -234,7 +234,7 @@
 			strength =  1, 0;
 			intelligence =  1, 0;
 			dexterity =  3, 0;
-            ranged =  3,  0;
+            combat_magic =  3,  0;
 		}
 	}
 	[aspect]
@@ -244,6 +244,7 @@
         max_life = 19;
         mana = 8;
 		max_mana = 8;
+		material = ice;
 		[voice]
 		{
 			[cast]			{ * = s_e_attack_frostnid; }
@@ -260,9 +261,9 @@
 	[inventory]
 	{
 		selected_active_location = il_active_primary_spell;
-		[other] { il_active_primary_spell=spell_frostnid_freeze; }
+		[other] { il_active_primary_spell=ann_r02_spell_frostnid; }
 	}
-	[common] { screen_name="Candy Spitter"; }
+	[common] { screen_name="Crystal Spitter"; }
     [defend] { defense=13; }
 	[mind]
 	{

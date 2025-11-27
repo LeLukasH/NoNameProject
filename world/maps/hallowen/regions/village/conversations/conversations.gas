@@ -1,0 +1,26 @@
+[intro_bartender]
+{
+	[text*]
+	{
+		screen_text = "My name is Tender ...Bat Tender!";
+	  f scroll_rate = 10.000000;
+	}
+}
+[shop_magic]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Hello. Wanna buy?";
+	  f scroll_rate = 10.000000;
+	}
+}
+[shopkeeper]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Huh?";
+	  f scroll_rate = 10.000000;
+	}
+}

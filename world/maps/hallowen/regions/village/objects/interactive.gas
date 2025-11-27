@@ -1,0 +1,13 @@
+[t:door_glb_barred,n:0x0010036e]
+{
+	[aspect]
+	{
+	  f scale_base = 1.15;
+	}
+	[placement]
+	{
+	  q orientation = -6.69713e-024,-0.707106,-6.69715e-024,0.707107;
+	  p position = 9.68147,-1.5,0.611481,0xaf57609e;
+		use_point_scids = 0x0010036F,0x00100372;
+	}
+}
