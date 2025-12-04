@@ -8677,7 +8677,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.173648,0,0.984808;
-	  p position = -6.82954,-0.996693,1.32393,0xbf66ad8a;
+	  p position = -6.82954,-1,1.32393,0xbf66ad8a;
 	}
 }
 [t:stand_csl_01,n:0x001003f1]

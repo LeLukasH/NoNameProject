@@ -25,6 +25,24 @@
 		use_point_scids = 0x001003a9;
 	}
 }
+[t:2w_shaman_dreven,n:0x0010089b]
+{
+	[common]
+	{
+		screen_name = "Frank N. Stein";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = r01_companion;
+		}
+	}
+	[placement]
+	{
+	  p position = 1.24949,-1.5,-4.32803,0xaf57609e;
+	}
+}
 [t:ann_r02_rat,n:0x001003a6]
 {
 	[placement]
@@ -317,46 +335,6 @@
 	  p position = -1.89038,0,0.330286,0xf8eb99c3;
 	}
 }
-[t:ann_r01_dog,n:0x0010035f]
-{
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 0.132481,0,-1.58104,0xc181cf39;
-	}
-}
-[t:dsx_eyes_whelnar,n:0x001001b4]
-{
-	[placement]
-	{
-	  p position = 2.29532,0,-0.0485229,0x31484744;
-	}
-}
-[t:2w_shaman_dreven,n:0x0010089b]
-{
-	[common]
-	{
-		screen_name = "Frank N. Stein";
-	}
-	[conversation]
-	{
-		[conversations]
-		{
-			* = r01_companion;
-		}
-	}
-	[placement]
-	{
-	  p position = 1.24949,-1.5,-4.32803,0xaf57609e;
-	}
-}
-[t:2w_shaman_dreven,n:0x0010089d]
-{
-	[placement]
-	{
-	  p position = 4.6287,1.1629,-3.54622,0x60f8d07c;
-	}
-}
 [t:2w_rhod_emell,n:0x0010089e]
 {
 	[common]
@@ -374,5 +352,52 @@
 	{
 	  q orientation = 0,-0.707107,0,-0.707107;
 	  p position = -9.89507,-1,-0.208777,0xbf66ad8a;
+	}
+}
+[t:ann_r01_dog,n:0x0010035f]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 0.132481,0,-1.58104,0xc181cf39;
+	}
+}
+[t:dsx_eyes_whelnar,n:0x001001b4]
+{
+	[placement]
+	{
+	  p position = 2.29532,0,-0.0485229,0x31484744;
+	}
+}
+[t:fettershin_scary,n:0x001003af]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -1.25922,0,-0.475812,0x2129f2e1;
+	}
+}
+[t:fettershin_scary,n:0x001004f9]
+{
+	[placement]
+	{
+	  q orientation = 0,-3.12407e-007,0,1;
+	  p position = -0.22879,0,1.48164,0x832d8f24;
+	}
+}
+[t:fettershin_scary,n:0x00100507]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,-1.45468e-007;
+	  p position = -0.0330067,0,-0.506767,0xbb995896;
+	}
+}
+[t:fettershin_scary,n:0x00100508]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -1.71768,0,1.06686,0xc153d6b9;
 	}
 }
