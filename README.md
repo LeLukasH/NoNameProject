@@ -1,2 +1,0 @@
-# NoNameProject
-Dungeon Siege Map
