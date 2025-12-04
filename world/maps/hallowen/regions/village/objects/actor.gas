@@ -332,10 +332,47 @@
 	  p position = 2.29532,0,-0.0485229,0x31484744;
 	}
 }
-[t:bodrus,n:0x001003af]
+[t:2w_shaman_dreven,n:0x0010089b]
+{
+	[common]
+	{
+		screen_name = "Frank N. Stein";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = r01_companion;
+		}
+	}
+	[placement]
+	{
+	  p position = 1.24949,-1.5,-4.32803,0xaf57609e;
+	}
+}
+[t:2w_shaman_dreven,n:0x0010089d]
 {
 	[placement]
 	{
-	  p position = 2.40845,-1.5,-4.75403,0xaf57609e;
+	  p position = 4.6287,1.1629,-3.54622,0x60f8d07c;
+	}
+}
+[t:2w_rhod_emell,n:0x0010089e]
+{
+	[common]
+	{
+		screen_name = "Brother Trick-or-Treatius";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = r01_quest;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,-0.707107;
+	  p position = -9.89507,-1,-0.208777,0xbf66ad8a;
 	}
 }
