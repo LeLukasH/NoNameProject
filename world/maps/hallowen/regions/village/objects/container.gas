@@ -58,10 +58,9 @@
 {
 	[placement]
 	{
-		drop_point_scids = ;
 	  q orientation = 0,0.923879,0,-0.382684;
 	  p position = 0.71067,0.0870709,3.08004,0x2d003815;
-		use_point_scids = 0x001003C2;
+		use_point_scids = 0x001003c2;
 	}
 }
 [t:ann_r01_chest_2,n:0x0010037a]
@@ -76,10 +75,9 @@
 {
 	[placement]
 	{
-		drop_point_scids = ;
 	  q orientation = 0,-0.580703,0,0.814116;
 	  p position = 13.5179,-2,0.179267,0xbf66ad8a;
-		use_point_scids = 0x001003C3;
+		use_point_scids = 0x001003c3;
 	}
 }
 [t:ann_r01_chest_1,n:0x00100355]

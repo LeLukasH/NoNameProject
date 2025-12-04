@@ -1,8 +1,9 @@
-[intro_bartender]
+[shop_armor]
 {
 	[text*]
 	{
-		screen_text = "My name is Tender ...Bat Tender!";
+		choice = shop;
+		screen_text = "Huh?";
 	  f scroll_rate = 10.000000;
 	}
 }
@@ -11,16 +12,18 @@
 	[text*]
 	{
 		choice = shop;
-		screen_text = "Hello. Wanna buy?";
+		screen_text = "Ahh... traveler. Your aura flickers like a candle in a storm.
+Come closer, and I shall show you spells that might steady that flame... or set the world ablaze.
+Gold first, magic after.";
 	  f scroll_rate = 10.000000;
 	}
 }
-[shopkeeper]
+[shop_potions]
 {
 	[text*]
 	{
 		choice = shop;
-		screen_text = "Huh?";
+		screen_text = "My name is Tender ...Bat Tender! You can buy some juice here.";
 	  f scroll_rate = 10.000000;
 	}
 }

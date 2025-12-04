@@ -20,12 +20,18 @@
 	0x0010070d = t_xxx_for_wal-straight-08-a;
 	0x0010070e = t_xxx_for_wal-straight-08-b;
 	0x0010070f = t_xxx_for_wal-straight-16-a;
+	0x001007a4 = t_xxx_keep_wall_outside-a;
+	0x001007ad = t_xxx_keep_wall_outside-cap-a;
+	0x001007b8 = t_xxx_keep_wall_portal-base-a;
+	0x001007ba = t_xxx_keep_wall_portal-basetop-a;
+	0x001007c5 = t_xxx_keep_wall_thick-tall-a;
 	0x00100849 = t_xxx_pth_04x04-a;
 	0x0010084a = t_xxx_pth_04x04-b;
 	0x0010084b = t_xxx_pth_04x04-c;
 	0x0010084c = t_xxx_pth_04x04-d;
 	0x0010084d = t_xxx_pth_04x04-e;
 	0x0010084e = t_xxx_pth_04x04-f;
+	0x0010084f = t_xxx_pth_04x04-g;
 	0x00100850 = t_xxx_pth_08x04-a;
 	0x00100851 = t_xxx_pth_08x04-b;
 	0x00100852 = t_xxx_pth_08x04-c;
@@ -49,7 +55,6 @@
 	0x001008af = t_xxx_rvr_12-tx-08-left-a;
 	0x001008b0 = t_xxx_rvr_12-tx-08-left-b;
 	0x001008bc = t_xxx_rvr_wfall-12-tx-12;
-	0x001008be = t_xxx_rvr_wfall-12-tx-wal-02;
 	0x00100a04 = t_xxx_wal_08-alcove-a;
 	0x00100a05 = t_xxx_wal_08-diag-thick-l;
 	0x00100a06 = t_xxx_wal_08-diag-thick-r;
