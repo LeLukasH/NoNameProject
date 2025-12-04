@@ -20,8 +20,13 @@
 	0x0010070d = t_xxx_for_wal-straight-08-a;
 	0x0010070e = t_xxx_for_wal-straight-08-b;
 	0x0010070f = t_xxx_for_wal-straight-16-a;
+	0x00100769 = t_xxx_keep_flr_path-cap-08x04-a;
 	0x001007a4 = t_xxx_keep_wall_outside-a;
+	0x001007a5 = t_xxx_keep_wall_outside-b;
 	0x001007ad = t_xxx_keep_wall_outside-cap-a;
+	0x001007b5 = t_xxx_keep_wall_outside-top-a;
+	0x001007b6 = t_xxx_keep_wall_outside-top-clmn-a;
+	0x001007b7 = t_xxx_keep_wall_outside-top-portal-a;
 	0x001007b8 = t_xxx_keep_wall_portal-base-a;
 	0x001007ba = t_xxx_keep_wall_portal-basetop-a;
 	0x001007c5 = t_xxx_keep_wall_thick-tall-a;
@@ -31,7 +36,6 @@
 	0x0010084c = t_xxx_pth_04x04-d;
 	0x0010084d = t_xxx_pth_04x04-e;
 	0x0010084e = t_xxx_pth_04x04-f;
-	0x0010084f = t_xxx_pth_04x04-g;
 	0x00100850 = t_xxx_pth_08x04-a;
 	0x00100851 = t_xxx_pth_08x04-b;
 	0x00100852 = t_xxx_pth_08x04-c;

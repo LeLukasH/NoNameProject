@@ -1,8 +1,19 @@
-[intro_bartender]
+[r01_companion]
 {
 	[text*]
 	{
-		screen_text = "My name is Tender ...Bat Tender!";
+		choice = potential_member;
+	  b quest_dialog = false;
+		screen_text = "Need help? I’ve got an arm to lend. Maybe two if I can find them.";
+	  f scroll_rate = 10.000000;
+	}
+}
+[shop_armor]
+{
+	[text*]
+	{
+		choice = shop;
+		screen_text = "Huh?";
 	  f scroll_rate = 10.000000;
 	}
 }
@@ -11,16 +22,36 @@
 	[text*]
 	{
 		choice = shop;
-		screen_text = "Hello. Wanna buy?";
+		screen_text = "Ahh... traveler. Your aura flickers like a candle in a storm.
+Come closer, and I shall show you spells that might steady that flame... or set the world ablaze.
+Gold first, magic after.";
 	  f scroll_rate = 10.000000;
 	}
 }
-[shopkeeper]
+[shop_potions]
 {
 	[text*]
 	{
 		choice = shop;
-		screen_text = "Huh?";
+		screen_text = "My name is Tender ...Bat Tender! You can buy some juice here.";
+	  f scroll_rate = 10.000000;
+	}
+}
+[r01_quest]
+{
+	[text*]
+	{
+	  b quest_dialog = true;
+		screen_text = "Oh dear... oh dear! The sacred Chalice of Eternal Light has vanished! 
+Without it, the church bells will toll... incorrectly! And worse... the spirits in the crypt are restless.";
+	  f scroll_rate = 10.000000;
+	}
+	[text*]
+	{
+		choice = more;
+	  b quest_dialog = true;
+		screen_text = "
+I need someone brave - or foolhardy - to retrieve it before the All-Hallows’ Eve service. Please, help me!";
 	  f scroll_rate = 10.000000;
 	}
 }

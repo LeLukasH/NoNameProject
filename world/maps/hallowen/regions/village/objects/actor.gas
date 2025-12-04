@@ -1,16 +1,17 @@
+[t:fettershin_scary,n:0x00100507]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -3.39138,0,0.132192,0xa71277b0;
+	}
+}
 [t:townfolk_f_02,n:0x00100374]
 {
 	[placement]
 	{
 	  q orientation = 0,-0.923879,0,-0.382684;
 	  p position = -10.0457,-1.5,4.46989,0xaf57609e;
-	}
-}
-[t:bodrus,n:0x001003af]
-{
-	[placement]
-	{
-	  p position = 2.40845,-1.5,-4.75403,0xaf57609e;
 	}
 }
 [t:merchant_shopkeeper,n:0x001003b1]
@@ -23,13 +24,31 @@
 	{
 		[conversations]
 		{
-			* = intro_bartender;
+			* = shop_potions;
 		}
 	}
 	[placement]
 	{
 	  p position = -8.69643,-1.5,-3.64102,0xaf57609e;
 		use_point_scids = 0x001003a9;
+	}
+}
+[t:2w_shaman_dreven,n:0x0010089b]
+{
+	[common]
+	{
+		screen_name = "Frank N. Stein";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = r01_companion;
+		}
+	}
+	[placement]
+	{
+	  p position = 1.24949,-1.5,-4.32803,0xaf57609e;
 	}
 }
 [t:ann_r02_rat,n:0x001003a6]
@@ -79,22 +98,14 @@
 	  p position = -1.21122,-1.90735e-006,0.755124,0xb4171627;
 	}
 }
-[t:blacksmith_acha,n:0x00100385]
+[t:ann_r01_shop_armor,n:0x00100385]
 {
-	[common]
-	{
-		screen_name = "Black Blacksmith";
-	}
 	[conversation]
 	{
 		[conversations]
 		{
-			* = shopkeeper;
+			* = shop_armor;
 		}
-	}
-	[mind]
-	{
-		jat_talk = world\ai\jobs\common\job_talk.skrit;
 	}
 	[placement]
 	{
@@ -149,6 +160,29 @@
 	  p position = -2.74046,0,3.14439,0x6ff60851;
 	}
 }
+[t:nalin_starbringer,n:0x00100166]
+{
+	[common]
+	{
+		screen_name = "Witchy Witch";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = shop_magic;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.923879,0,-0.382684;
+	  p position = 2.68951,-3.65,0.774754,0x2ec0d769;
+	}
+}
 [t:ann_r02_rat,n:0x001003ad]
 {
 	[placement]
@@ -196,7 +230,7 @@
 	[placement]
 	{
 	  q orientation = 1.45837e-024,-0.382683,-6.04078e-025,0.923879;
-	  p position = 3.64207,-3.65,0.357126,0x2ec0d769;
+	  p position = -0.757156,-3.65,2.83729,0x2ec0d769;
 	}
 }
 [t:ann_r02_rat,n:0x001003b8]
@@ -301,12 +335,39 @@
 	  p position = 0.8097,0,0.11972,0x18265e23;
 	}
 }
-[t:ghost,n:0x001001d8]
+[t:fettershin_scary,n:0x00100508]
 {
 	[placement]
 	{
-	  q orientation = 0,0.707107,0,-0.707107;
-	  p position = -1.89038,0,0.330286,0xf8eb99c3;
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 1.91188,0,-0.12767,0xc153d6b9;
+	}
+}
+[t:fettershin_scary,n:0x001003af]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 1.8251,0,0.300897,0x3bf79af1;
+	}
+}
+[t:2w_rhod_emell,n:0x0010089e]
+{
+	[common]
+	{
+		screen_name = "Brother Trick-or-Treatius";
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = r01_quest;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,-0.707107;
+	  p position = -9.89507,-1,-0.208777,0xbf66ad8a;
 	}
 }
 [t:ann_r01_dog,n:0x0010035f]
@@ -317,10 +378,11 @@
 	  p position = 0.132481,0,-1.58104,0xc181cf39;
 	}
 }
-[t:dsx_eyes_whelnar,n:0x001001b4]
+[t:fettershin_scary,n:0x001004f9]
 {
 	[placement]
 	{
-	  p position = 2.29532,0,-0.0485229,0x31484744;
+	  q orientation = 0,-3.12407e-007,0,1;
+	  p position = -0.22879,0,1.48164,0x832d8f24;
 	}
 }
