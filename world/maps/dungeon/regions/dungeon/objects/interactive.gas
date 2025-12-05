@@ -1,0 +1,49 @@
+[t:door_glb_crypt_01,n:0x00100078]
+{
+	[placement]
+	{
+	  p position = -0.0280685,-1.5,0.195925,0xbd0afe3b;
+		use_point_scids = 0x001000a7,0x001000a6;
+	}
+}
+[t:door_glb_crypt_01,n:0x00100077]
+{
+	[placement]
+	{
+	  p position = -0.0579166,-1.5,-0.284241,0x36e799f6;
+		use_point_scids = 0x00100088,0x001000a4;
+	}
+}
+[t:door_glb_crypt_01,n:0x00100076]
+{
+	[placement]
+	{
+	  p position = 0.0496292,-1.5,-0.0362625,0xd9ad1f5d;
+		use_point_scids = 0x00100084,0x00100086;
+	}
+}
+[t:door_glb_crypt_01,n:0x00100060]
+{
+	[placement]
+	{
+	  q orientation = 0,1,0,-5.96046e-008;
+	  p position = 0.0903931,-1.5,0.253578,0xc8f893f5;
+		use_point_scids = 0x00100061,0x00100082;
+	}
+}
+[t:door_glb_crypt_01,n:0x001000dd]
+{
+	[placement]
+	{
+	  p position = -0.0155811,-1.5,-0.087616,0xfb656f3b;
+		use_point_scids = 0x001000e2,0x001000df;
+	}
+}
+[t:door_glb_crypt_01,n:0x001000de]
+{
+	[placement]
+	{
+	  p position = 0.0661564,-1.5,0.213165,0x21981c88;
+		use_point_scids = 0x001000e0,0x001000e1;
+	}
+}
