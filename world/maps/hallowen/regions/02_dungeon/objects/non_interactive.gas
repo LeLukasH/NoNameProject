@@ -1011,6 +1011,30 @@
 	  p position = 1.03757,-0.415934,-0.33844,0xcd0cc9c7;
 	}
 }
+[t:column_gargoyle,n:0x002000b6]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 3;
+	}
+	[placement]
+	{
+	  q orientation = 0,-2.98023e-008,0,1;
+	  p position = 1.78796,-4,0.15441,0xa71b31f8;
+	}
+}
+[t:column_gargoyle,n:0x00200085]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 3;
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -1.83636,-4,0.166625,0x02a9d7d3;
+	}
+}
 [t:lamp_glb_oil_01,n:0x002000ef]
 {
 	[placement]

@@ -112,6 +112,66 @@
 	  p position = -0.631127,-1.5,-1.90652,0x21981c88;
 	}
 }
+[t:trigger_generic,n:0x002000f5]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_delete",0x002000F2,0f,"default","every",0), doc("delete decoy");
+				action* = send_world_message("we_req_activate",0x002000F4,0f,"default","every",0), doc("enable actor");
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_first_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-2.98023e-008,0,1;
+	  p position = -1.66202,-4,-0.515117,0x57489670;
+	}
+}
+[t:trigger_generic,n:0x002000f9]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_delete",0x002000F6,0f,"default","every",0), doc("delete decoy");
+				action* = send_world_message("we_req_activate",0x002000F8,0f,"default","every",0), doc("enable actor");
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_first_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-2.98023e-008,0,1;
+	  p position = -0.123413,-4,-0.595243,0x3702e014;
+	}
+}
 [t:use_point,n:0x002000b3]
 {
 	[placement]
