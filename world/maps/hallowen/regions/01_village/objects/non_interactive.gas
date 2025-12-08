@@ -3328,7 +3328,7 @@
 {
 	[placement]
 	{
-	  p position = -1.03581,0,1.77334,0x2b988e7d;
+	  p position = -1.03581,0,1.77335,0x2b988e7d;
 	}
 }
 [t:tree_grs_maple_burgandy_01,n:0x001007c8]
@@ -11296,7 +11296,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.173648,0,0.984808;
-	  p position = -6.82954,-1,1.32393,0x463d53e4;
+	  p position = -6.79108,-1,1.28294,0x463d53e4;
 	}
 }
 [t:stand_csl_01,n:0x0010002d]
@@ -11304,7 +11304,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.173648,0,0.984808;
-	  p position = -7.39778,-1,-0.286942,0x463d53e4;
+	  p position = -7.38184,-1,-0.260294,0x463d53e4;
 	}
 }
 [t:bench_csl_02,n:0x0010002e]
@@ -17728,7 +17728,7 @@
 {
 	[placement]
 	{
-	  p position = -8.39376,-2.62682,-0.996841,0xa094e466;
+	  p position = -7.37828,-2.62682,-0.975494,0xa094e466;
 	}
 }
 [t:tapestry_glb_01,n:0x00100aa9]

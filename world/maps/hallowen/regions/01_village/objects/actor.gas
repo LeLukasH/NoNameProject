@@ -360,14 +360,6 @@
 	  p position = 0.132481,0,-1.58104,0xc181cf39;
 	}
 }
-[t:fettershin_scary,n:0x001004f9]
-{
-	[placement]
-	{
-	  q orientation = 0,-3.12407e-007,0,1;
-	  p position = -0.22879,0,1.48164,0x832d8f24;
-	}
-}
 [t:fettershin_scary,n:0x00100507]
 {
 	[placement]
