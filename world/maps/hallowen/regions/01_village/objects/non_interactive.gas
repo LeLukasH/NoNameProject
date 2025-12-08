@@ -11296,7 +11296,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.173648,0,0.984808;
-	  p position = -6.79108,-1,1.28294,0x463d53e4;
+	  p position = -6.74997,-1,1.36942,0x463d53e4;
 	}
 }
 [t:stand_csl_01,n:0x0010002d]
@@ -11304,7 +11304,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.173648,0,0.984808;
-	  p position = -7.38184,-1,-0.260294,0x463d53e4;
+	  p position = -7.41237,-1,-0.26957,0x463d53e4;
 	}
 }
 [t:bench_csl_02,n:0x0010002e]

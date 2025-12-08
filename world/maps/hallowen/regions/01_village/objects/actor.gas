@@ -17,6 +17,7 @@
 {
 	[aspect]
 	{
+	  i gold_value = 50;
 	  f max_life = 9.8;
 	  f max_mana = 86;
 	}

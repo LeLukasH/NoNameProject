@@ -1,3 +1,12 @@
+[r01_companion]
+{
+	[text*]
+	{
+		choice = potential_member;
+		screen_text = "Need help? I've got an arm to lend. Maybe two if I can find them.";
+	  f scroll_rate = 30.000000;
+	}
+}
 [r01_quest]
 {
 	[text*]
@@ -42,15 +51,6 @@ Gold first, magic after.";
 	{
 		choice = shop;
 		screen_text = "My name is Tender ...Bat Tender! You can buy some juice here.";
-	  f scroll_rate = 10.000000;
-	}
-}
-[r01_companion]
-{
-	[text*]
-	{
-		choice = potential_member;
-		screen_text = "Need help? I�ve got an arm to lend. Maybe two if I can find them.";
 	  f scroll_rate = 10.000000;
 	}
 }
