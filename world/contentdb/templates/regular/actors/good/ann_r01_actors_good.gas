@@ -37,9 +37,7 @@
             {
                 // BODY
                 [all*] { il_main = #body,m/8-13; max = 3; min = 2; }
-                [all*] { il_main = #body,r/8-13; max = 3; min = 3; }
                 [all*] { il_main = #body,f/14-18; max = 4; min = 2; }
-
                 [all*] { il_main = #body/3-5; max = 3; min = 1; }
                 [all*] { il_main = #body/6-12; max = 7; min = 4; }
                 [all*] { il_main = #body/13-15; max = 3; min = 2; }
@@ -48,25 +46,18 @@
                 // HELMETS
                 [all*] { il_main = #helm,m/8-13; max = 3; min = 2; }
                 [all*] { il_main = #helm,r/8-13; max = 3; min = 2; }
-
                 [all*] { il_main = #helm/3-7; max = 3; min = 1; }
                 [all*] { il_main = #helm/8-12; max = 5; min = 3; }
                 [all*] { il_main = #helm/13-15; max = 3; min = 2; }
                 [all*] { il_main = #helm/14-18; max = 3; min = 2; }
 
                 // GLOVES
-                [all*] { il_main = #gloves,m/8-13; max = 3; min = 2; }
-                [all*] { il_main = #gloves,r/8-13; max = 3; min = 2; }
-
                 [all*] { il_main = #gloves/3-7; max = 2; min = 1; }
-                [all*] { il_main = #gloves/8-12; max = 6; min = 1; }
+                [all*] { il_main = #gloves/8-12; max = 3; min = 1; }
                 [all*] { il_main = #gloves/13-15; max = 3; min = 2; }
                 [all*] { il_main = #gloves/14-18; max = 3; min = 2; }
 
                 // BOOTS
-                [all*] { il_main = #boots,m/8-13; max = 3; min = 2; }
-                [all*] { il_main = #boots,r/8-13; max = 3; min = 2; }
-
                 [all*] { il_main = #boots/3-7; max = 3; min = 2; }
                 [all*] { il_main = #boots/8-12; max = 4; min = 3; }
                 [all*] { il_main = #boots/13-15; max = 3; min = 2; }
@@ -75,9 +66,6 @@
 
             [shields]
             {
-                [all*] { il_main = #shield,m/8-13; max = 2; min = 2; }
-                [all*] { il_main = #shield,r/8-13; max = 2; min = 2; }
-
                 [all*] { il_main = #shield/3-5; max = 3; min = 1; }
                 [all*] { il_main = #shield/6-12; max = 3; min = 2; }
                 [all*] { il_main = #shield/13-15; max = 2; min = 1; }
@@ -90,13 +78,10 @@
                 [all*] { il_main = #melee/3-6; max = 3; min = 2; }
                 [all*] { il_main = #melee/6-8; max = 4; min = 2; }
                 [all*] { il_main = #melee/8-11; max = 4; min = 2; }
-                [all*] { il_main = #melee/8-11; max = 4; min = 2; }
-
                 [all*] { il_main = #melee/0-14; max = 2; min = 1; }
 
                 [all*] { il_main = #ranged/0-1; max = 1; min = 1; }
                 [all*] { il_main = #ranged/3-6; max = 2; min = 1; }
-                [all*] { il_main = #ranged/1-2; max = 2; min = 1; }
                 [all*] { il_main = #ranged/1-2; max = 2; min = 1; }
                 [all*] { il_main = #ranged/2-3; max = 2; min = 1; }
             }
@@ -140,13 +125,13 @@
 		item_markup = 2;
 		[item_restock]
 			{
-				potion_health_small = 5;
-				potion_mana_small = 5;
+				potion_health_small = 8;
+				potion_mana_small = 7;
 
-				potion_health_medium = 2;
-				potion_mana_medium = 1;
+				potion_health_medium = 3;
+				potion_mana_medium = 2;
 
-				potion_rejuvenation_small = 1;
+				potion_rejuvenation_small = 2;
 			}
 	}
 
@@ -204,29 +189,23 @@
 				[all*]
 				{
 					il_main = #spell/8-23;
-					max = 15;
-					min = 5;
+					max = 20;
+					min = 10;
 				}
 				[all*]
 				{
 					il_main = #spell/0-15;
-					max = 5;
-					min = 4;
+					max = 25;
+					min = 10;
 				}
 			}
 			[misc]
 			{
 				[all*]
 				{
-					il_main = book_glb_magic_01;
-					max = 3;
-					min = 1;
-				}
-				[all*]
-				{
 					il_main = #spellbook/5-15;
 					max = 3;
-					min = 3;
+					min = 1;
 				}
 			}
         }
