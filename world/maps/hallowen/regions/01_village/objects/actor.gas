@@ -27,10 +27,14 @@
 			* = r01_companion;
 		}
 	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
 	[placement]
 	{
 	  q orientation = 0,-0.382683,0,0.92388;
-	  p position = 1.10524,-1.5,-4.05684,0xc2748e33;
+	  p position = 1.10392,-1.5,-4.05174,0xc2748e33;
 	}
 }
 [t:ann_r02_rat,n:0x00100a77]
@@ -321,6 +325,10 @@
 		{
 			* = r01_quest;
 		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
 	}
 	[placement]
 	{
