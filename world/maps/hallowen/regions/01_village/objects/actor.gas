@@ -33,14 +33,6 @@
 	  p position = 1.10524,-1.5,-4.05684,0xc2748e33;
 	}
 }
-[t:townfolk_f_02,n:0x00100a97]
-{
-	[placement]
-	{
-	  q orientation = 0,0.923879,0,0.382684;
-	  p position = -10.0457,-1.5,4.46989,0xc2748e33;
-	}
-}
 [t:ann_r02_rat,n:0x00100a77]
 {
 	[placement]
@@ -182,22 +174,6 @@
 	[placement]
 	{
 	  p position = -4.24799,0.0644817,-0.349077,0xa6e1a876;
-	}
-}
-[t:ann_r02_rat,n:0x00100019]
-{
-	[placement]
-	{
-	  q orientation = 1.45837e-024,-0.382683,-6.04078e-025,0.923879;
-	  p position = -0.757156,-3.65,2.83729,0xa6e1a876;
-	}
-}
-[t:ann_r02_rat,n:0x0010001f]
-{
-	[placement]
-	{
-	  q orientation = 1.11619e-024,0.707107,1.11619e-024,0.707107;
-	  p position = -1.23611,-3.65,-0.0981655,0xa6e1a876;
 	}
 }
 [t:ann_r01_spider,n:0x00100360]

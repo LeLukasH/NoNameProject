@@ -107,6 +107,14 @@
 	{
 	  q orientation = 1.6237e-031,0.707107,-1.6237e-031,0.707107;
 	  p position = -11.3103,-2.65,-2.8791,0xa094e466;
-		use_point_scids = 0x0010034A;
+		use_point_scids = 0x0010034a;
+	}
+}
+[t:ann_r01_chest_2,n:0x0010034e]
+{
+	[placement]
+	{
+	  q orientation = 0,-0.382683,0,0.92388;
+	  p position = -2.49211,0,-0.298847,0xcdd497ab;
 	}
 }
