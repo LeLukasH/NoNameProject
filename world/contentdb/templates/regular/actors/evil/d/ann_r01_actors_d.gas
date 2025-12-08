@@ -97,11 +97,11 @@
 		gib_gore_good = true;
 		[break_particulate]
 		{
-			frag_glb_spider_01 = 1;
-			frag_glb_spider_02 = 3;
-			frag_glb_spider_03 = 5;
-			frag_glb_spider_04 = 5;
-			frag_glb_spider_05 = 1;
+			ann_r01_spider_frag_01 = 1;
+			ann_r01_spider_frag_02 = 3;
+			ann_r01_spider_frag_03 = 5;
+			ann_r01_spider_frag_04 = 5;
+			ann_r01_spider_frag_05 = 1;
 		}
 	}
 }
