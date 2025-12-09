@@ -132,7 +132,7 @@
 	{
 	  q orientation = 3.3404e-009,-0.707107,-3.34041e-009,0.707107;
 	  p position = -6.80392,-0.270283,1.32535,0x463d53e4;
-		use_point_scids = 0x0010034C;
+		use_point_scids = 0x0010034c;
 	}
 }
 [t:gold,n:0x00100028]
