@@ -75,7 +75,7 @@
 	[music]
 	{
 
-		ambient_track = village; 
+		ambient_track = s_m_village; 
 	}
 }
 [mood_setting*]
