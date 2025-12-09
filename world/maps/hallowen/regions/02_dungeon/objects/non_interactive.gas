@@ -318,14 +318,6 @@
 	  p position = 0.0788918,0.340968,-1.47369,0xbed32a2a;
 	}
 }
-[t:rock_glb_wet_04,n:0x0020001f]
-{
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 0.916466,-0.58512,1.06454,0x29c465b1;
-	}
-}
 [t:rock_glb_wet_04,n:0x00200023]
 {
 	[placement]
