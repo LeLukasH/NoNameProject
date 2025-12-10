@@ -1,0 +1,44 @@
+[mood_setting*]
+{
+	mood_name = m_halloween_dungeon_deep;
+	transition_time = 2.0f;
+
+	[fog]
+	{
+		fog_active = true;
+		fog_color = 0.0, 0.0, 0.0;
+		fog_density = 1.0;
+		fog_near_dist = 10.0;
+		fog_far_dist = 30.0;
+	}
+
+	[music]
+	{
+		ambient_track = s_m_dungeon;
+		room_type = rt_cave;
+	}
+
+	[rain]
+	{
+		draw_rain = false;
+		lightning_frequency = 0.0;
+	}
+
+	[wind]
+	{
+		wind_velocity = 0.0;
+	}
+
+	[sun]
+	{
+		sun_direction = 0.0, 1.0, 0.0;
+		sun_color = 0.15, 0.15, 0.15;
+		ambient_color = 0.0, 0.0, 0.0;
+	}
+
+	[frustum]
+	{
+		frustum_width = 30.0;
+		frustum_height = 40.0;
+	}
+}
