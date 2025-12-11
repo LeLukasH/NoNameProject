@@ -27,17 +27,26 @@
 	mood_name = m_halloween_blood_night;
 	transition_time = 5.0f;
 
-
 	[fog]
 	{
-		fog_near_dist		= 30.0f;
-		fog_far_dist		= 50.0f;
-		fog_lowdetail_near_dist		= 30.0f;
-		fog_lowdetail_far_dist		= 45.0f;
+		fog_active = true;
+
+		
+		fog_near_dist		= 5.0f;    
+		
+		
+		fog_far_dist		= 45.0f;   
+
+		
+		fog_lowdetail_near_dist		= 5.0f;
+		fog_lowdetail_far_dist		= 40.0f;
+
+		
 		fog_color			= 0xFF646464;
+		
 		fog_density			= 0.5f;
 	}
-
+	
 	[wind]
 	{
 		wind_velocity = 12.0;          
@@ -46,7 +55,6 @@
 
 	[music]
 	{
-
 		ambient_track = s_m_village; 
 	}
 }
@@ -57,11 +65,12 @@
 
 	[fog]
 	{
-		fog_active = true;
-		fog_color = 0xFF646464;
-		fog_density = 1.0;
-		fog_near_dist = 10.0;
-		fog_far_dist = 30.0;
+		fog_near_dist		= 25.0f;
+		fog_far_dist		= 35.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 30.0f;
+		fog_color			= 0xFF000000;
+		fog_density			= 0.5f;
 	}
 
 	[music]
@@ -70,4 +79,35 @@
 		room_type = rt_cave;
 	}
 
+}
+[mood_setting*]
+{
+	mood_name = m_halloween_boss_hellfire;
+	transition_time = 1.5f; 
+
+	// --- KRVAVÉ POZADIE ---
+	[fog]
+	{
+		fog_active = true;
+
+		fog_color = 0xFF400505; 
+		
+		fog_density = 0.6;
+		
+		
+		fog_near_dist = 12.0;
+		fog_far_dist = 60.0;
+		
+		fog_lowdetail_near_dist = 12.0;
+		fog_lowdetail_far_dist = 50.0;
+	}
+
+
+	[music]
+	{
+		ambient_track = s_m_boss;  // Tvoja hudba
+		
+
+		room_type = rt_arena;
+	}
 }
