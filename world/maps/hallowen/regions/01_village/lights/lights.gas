@@ -793,9 +793,9 @@
 		[position]
 		{
 		  x node = 0xCA04C79B;
-		  f x = 3.362986;
-		  f y = 0.348656;
-		  f z = 0.127188;
+		  f x = 3.360962;
+		  f y = 0.671918;
+		  f z = 0.054619;
 		}
 	}
 	[t:point,n:light_0xfaaf8841]
