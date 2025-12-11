@@ -318,14 +318,6 @@
 	  p position = 0.0788918,0.340968,-1.47369,0xbed32a2a;
 	}
 }
-[t:rock_glb_wet_04,n:0x0020001f]
-{
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = 0.916466,-0.58512,1.06454,0x29c465b1;
-	}
-}
 [t:rock_glb_wet_04,n:0x00200023]
 {
 	[placement]
@@ -889,14 +881,6 @@
 	  p position = -1.6545,-0.434252,-0.327209,0xb6efe8fc;
 	}
 }
-[t:mist_glb_large_01,n:0x0020005e]
-{
-	[placement]
-	{
-	  q orientation = 0,-5.96046e-008,0,1;
-	  p position = 1.04663,0,-0.996368,0x81745fd3;
-	}
-}
 [t:crystals_cav_19,n:0x00200064]
 {
 	[placement]
@@ -964,6 +948,14 @@
 	  p position = -1.99969,-1.35849,-1.66406,0x6960e86d;
 	}
 }
+[t:mist_glb_large_01,n:0x0020005e]
+{
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -0.93689,2.4036,0.291496,0x7df3f0c9;
+	}
+}
 [t:rock_glb_wet_04,n:0x0020006c]
 {
 	[placement]
@@ -1009,30 +1001,6 @@
 	{
 	  q orientation = 0,-0.999962,0,-0.00872631;
 	  p position = 1.03757,-0.415934,-0.33844,0xcd0cc9c7;
-	}
-}
-[t:column_gargoyle,n:0x002000b6]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 3;
-	}
-	[placement]
-	{
-	  q orientation = 0,-2.98023e-008,0,1;
-	  p position = 1.78796,-4,0.15441,0xa71b31f8;
-	}
-}
-[t:column_gargoyle,n:0x00200085]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 3;
-	}
-	[placement]
-	{
-	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -1.83636,-4,0.166625,0x02a9d7d3;
 	}
 }
 [t:lamp_glb_oil_01,n:0x002000ef]
@@ -1379,5 +1347,29 @@
 	{
 	  q orientation = 0,0.999962,0,0.00872639;
 	  p position = 1.00666,-0.304443,-0.340412,0x77fbf64b;
+	}
+}
+[t:stalagmite_cav_07,n:0x0020007a]
+{
+	[placement]
+	{
+	  q orientation = 0.694658,1.6939e-007,0.71934,1.71736e-007;
+	  p position = 1.89303,8.33273,-1.41298,0x5ca7cad8;
+	}
+}
+[t:stalagmite_cav_06,n:0x00200081]
+{
+	[placement]
+	{
+	  q orientation = 1,-4.84288e-008,0,0;
+	  p position = 1.52914,8.30755,-0.0314164,0x264655ad;
+	}
+}
+[t:stalagmite_cav_06,n:0x00200085]
+{
+	[placement]
+	{
+	  q orientation = -0.707107,-3.09086e-008,0.707107,3.09086e-008;
+	  p position = -2.46013,8.53613,-0.244591,0x20a9697d;
 	}
 }

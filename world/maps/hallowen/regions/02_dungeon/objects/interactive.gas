@@ -47,11 +47,11 @@
 		use_point_scids = 0x002000e0,0x002000e1;
 	}
 }
-[t:ann_ambient_generator_tail,n:0x00200081]
+[t:ann_ambient_generator_tail,n:0x00200068]
 {
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -0.922485,0,-2.36957,0x1e4a082b;
+	  p position = -0.922485,0,-2.36957,0xc1b72e4f;
 	}
 }
