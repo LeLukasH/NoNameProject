@@ -1,6 +1,6 @@
 [mood_setting*]
 {
-	mood_name				= ann_r01_mood
+	mood_name				= ann_r01_mood;
 	transition_time			= 6.0f;
 	interior				= false;
 
@@ -30,46 +30,18 @@
 
 	[fog]
 	{
-		fog_active = true;
-		
-		
-		fog_color = 0.30, 0.0, 0.40; 
-		
-		fog_density = 0.98;
-		fog_near_dist = 4.0;
-		fog_far_dist = 45.0;  
-	}
-
-	[rain]
-	{
-		draw_rain = true;
-		rain_density = 250.0;          
-
-		rain_color = 0.9, 0.05, 0.05;  
-		
-
-		lightning_frequency = 0.05;    
-		lightning_duration = 0.4;
-		lightning_color = 1.0, 0.6, 0.6; 
+		fog_near_dist		= 30.0f;
+		fog_far_dist		= 50.0f;
+		fog_lowdetail_near_dist		= 30.0f;
+		fog_lowdetail_far_dist		= 45.0f;
+		fog_color			= 0xFF646464;
+		fog_density			= 0.5f;
 	}
 
 	[wind]
 	{
 		wind_velocity = 12.0;          
 		wind_direction = 1.0, 0.0, 0.0; 
-	}
-
-
-	[sun]
-	{
-
-		sun_direction = -0.5, -0.8, -0.5;
-		
-
-		sun_color = 0.4, 0.1, 0.5;
-		
-
-		ambient_color = 0.2, 0.05, 0.05;
 	}
 
 	[music]
@@ -86,7 +58,7 @@
 	[fog]
 	{
 		fog_active = true;
-		fog_color = 0.0, 0.0, 0.0;
+		fog_color = 0xFF646464;
 		fog_density = 1.0;
 		fog_near_dist = 10.0;
 		fog_far_dist = 30.0;
@@ -98,27 +70,4 @@
 		room_type = rt_cave;
 	}
 
-	[rain]
-	{
-		draw_rain = false;
-		lightning_frequency = 0.0;
-	}
-
-	[wind]
-	{
-		wind_velocity = 0.0;
-	}
-
-	[sun]
-	{
-		sun_direction = 0.0, 1.0, 0.0;
-		sun_color = 0.15, 0.15, 0.15;
-		ambient_color = 0.0, 0.0, 0.0;
-	}
-
-	[frustum]
-	{
-		frustum_width = 30.0;
-		frustum_height = 40.0;
-	}
 }

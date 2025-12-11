@@ -1,3 +1,39 @@
+[t:blocking_object,n:0x00100019]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 2;
+	}
+	[placement]
+	{
+	  q orientation = -1.11619e-024,0.707107,1.11619e-024,0.707107;
+	  p position = 2.57669,-6.95,-8.64678,0xf71fd45b;
+	}
+}
+[t:blocking_object,n:0x0010034f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 2.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,8.9407e-008;
+	  p position = 0.307743,0.45,-7.40509,0xf71fd45b;
+	}
+}
+[t:blocking_object,n:0x0010001f]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 2.5;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,8.9407e-008;
+	  p position = 3.28569,0.45,14.9143,0xb69828cc;
+	}
+}
 [t:trigger_fade_nodes_box,n:0x00100a8b]
 {
 	[common]
@@ -138,34 +174,6 @@
 	{
 	  q orientation = -1.06704e-009,-0.017452,-7.6665e-010,0.999848;
 	  p position = -1.43083,-0.15,-0.341064,0xd0134218;
-	}
-}
-[t:trigger_change_mood_box,n:0x00100019]
-{
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("m_halloween_blood_night");
-			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(2.000000,1.500000,2.000000,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  p position = -1.88976,0,0.144627,0xc909cbbc;
 	}
 }
 [t:trigger_fade_nodes_box,n:0x00100a73]
@@ -730,18 +738,6 @@
 	  p position = -6.09122,-1,-0.825047,0x463d53e4;
 	}
 }
-[t:blocking_object,n:0x00100a00]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 2;
-	}
-	[placement]
-	{
-	  q orientation = -1.11619e-024,-0.707107,-1.11619e-024,0.707107;
-	  p position = -0.469238,-7.5,-1.69368,0x7f698bd8;
-	}
-}
 [t:blocking_object,n:0x00100a01]
 {
 	[aspect]
@@ -764,6 +760,18 @@
 	{
 	  q orientation = 1.76353e-031,1,1.57853e-024,0;
 	  p position = -1.58264,-3.5,-0.651901,0x7f310596;
+	}
+}
+[t:blocking_object,n:0x00100a00]
+{
+	[aspect]
+	{
+	  f scale_multiplier = 2;
+	}
+	[placement]
+	{
+	  q orientation = -1.11619e-024,-0.707107,-1.11619e-024,0.707107;
+	  p position = -0.469238,-7.5,-1.69368,0x7f698bd8;
 	}
 }
 [t:blocking_object,n:0x001002d9]
@@ -811,39 +819,32 @@
 	  p position = 0.256678,0,0.0433998,0xbeeb69bf;
 	}
 }
-[t:blocking_object,n:0x00100019]
+[t:trigger_change_mood_box,n:0x00100349]
 {
-	[aspect]
+	[common]
 	{
-	  f scale_multiplier = 2;
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("m_halloween_blood_night");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(2.000000,1.500000,2.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
 	}
 	[placement]
 	{
-	  q orientation = -1.11619e-024,0.707107,1.11619e-024,0.707107;
-	  p position = 2.57669,-6.95,-8.64678,0xf71fd45b;
-	}
-}
-[t:blocking_object,n:0x0010001f]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 2.5;
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,8.9407e-008;
-	  p position = 3.28569,0.45,14.9143,0xb69828cc;
-	}
-}
-[t:blocking_object,n:0x0010034f]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 2.5;
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,8.9407e-008;
-	  p position = 0.307743,0.45,-7.40509,0xf71fd45b;
+	  q orientation = 3.15706e-024,-5.96046e-008,1.97215e-031,1;
+	  p position = -1.95213,-2.42445e-022,0.283646,0xc909cbbc;
 	}
 }
