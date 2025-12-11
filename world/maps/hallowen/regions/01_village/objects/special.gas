@@ -140,7 +140,7 @@
 	  p position = -1.43083,-0.15,-0.341064,0xd0134218;
 	}
 }
-[t:trigger_change_mood_box,n:0x001001da]
+[t:trigger_change_mood_box,n:0x00100019]
 {
 	[common]
 	{
@@ -148,9 +148,9 @@
 		{
 			[*]
 			{
-				action* = mood_change("");
+				action* = mood_change("m_halloween_blood_night");
 			  b can_self_destruct = true;
-				condition* = party_member_within_bounding_box(2.000000,1.000000,2.000000,"on_every_enter");
+				condition* = party_member_within_bounding_box(2.000000,1.500000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
 			  b flip_flop = false;
 			  b multi_player = true;
@@ -165,7 +165,7 @@
 	}
 	[placement]
 	{
-	  p position = -0.85733,0,0.349523,0xc909cbbc;
+	  p position = -1.88976,0,0.144627,0xc909cbbc;
 	}
 }
 [t:trigger_fade_nodes_box,n:0x00100a73]
@@ -327,7 +327,7 @@
 		{
 			[*]
 			{
-				action* = mood_change("");
+				action* = mood_change("m_halloween_dungeon_deep");
 			  b can_self_destruct = true;
 				condition* = party_member_within_bounding_box(2.000000,1.000000,2.000000,"on_every_enter");
 			  f delay = 0.000000;
@@ -344,7 +344,36 @@
 	}
 	[placement]
 	{
-	  p position = 4.21764,1,0.0277481,0x422f9007;
+	  p position = 0.661255,-1,-0.0275688,0x422f9007;
+	}
+}
+[t:trigger_change_mood_box,n:0x001001da]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = mood_change("m_halloween_blood_night");
+			  b can_self_destruct = true;
+				condition* = party_member_within_bounding_box(2.000000,1.500000,2.000000,"on_every_enter");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = 1.63677,0,-2.86026,0x9c1cecfd;
 	}
 }
 [t:use_point,n:0x00100a88]
@@ -709,8 +738,8 @@
 	}
 	[placement]
 	{
-	  q orientation = -1.11619e-024,-0.707107,-1.11619e-024,0.707107;
-	  p position = -0.469238,-7.5,-1.69368,0x7f698bd8;
+	  q orientation = -1.11619e-024,0.707107,1.11619e-024,0.707107;
+	  p position = -1.53076,-12.5,-2.50632,0x4a7f39d3;
 	}
 }
 [t:blocking_object,n:0x00100a01]
@@ -746,7 +775,7 @@
 	[placement]
 	{
 	  q orientation = 0,1,0,2.98023e-008;
-	  p position = -3.63104,0.169415,-0.721357,0xe21a4059;
+	  p position = -3.46899,0,-0.720393,0xe21a4059;
 	}
 }
 [t:use_point,n:0x0010034a]
@@ -780,41 +809,5 @@
 	{
 	  q orientation = 0,-8.9407e-008,0,1;
 	  p position = 0.256678,0,0.0433998,0xbeeb69bf;
-	}
-}
-[t:blocking_object,n:0x00100019]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 2;
-	}
-	[placement]
-	{
-	  q orientation = -1.11619e-024,0.707107,1.11619e-024,0.707107;
-	  p position = 2.57669,-6.95,-8.64678,0xf71fd45b;
-	}
-}
-[t:blocking_object,n:0x0010001f]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 2.5;
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,8.9407e-008;
-	  p position = 3.28569,0.45,14.9143,0xb69828cc;
-	}
-}
-[t:blocking_object,n:0x0010034f]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 2.5;
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,8.9407e-008;
-	  p position = 0.307743,0.45,-7.40509,0xf71fd45b;
 	}
 }

@@ -92,31 +92,3 @@
 		}
 	}
 }
-[t:template,n:ann_barrel]
-{
-	specializes 		= barrel_swp_01;
-	doc 				= "barrel_mossy";
-    category_name       = "container";
-	
-	[inventory]
-	{
-		[pcontent]
-		{
-			[all*]
-			{
-				[oneof*]
-				{
-					chance = 0.3;
-					il_main = potion_mana_small;
-					il_main = potion_health_small;
-				}
-				[gold*]
-				{
-					chance = 0.5;
-					max = 5;
-					min = 1;
-				}
-			}
-		}
-	}
-}

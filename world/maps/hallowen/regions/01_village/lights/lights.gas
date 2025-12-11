@@ -168,27 +168,6 @@
 		  f z = -1.400497;
 		}
 	}
-	[t:point,n:light_0x5549dced]
-	{
-	  b active = true;
-	  b affects_actors = true;
-	  b affects_items = true;
-	  b affects_terrain = true;
-	  x color = 0xFFFFFFFF;
-	  b draw_shadow = false;
-	  f inner_radius = 0.000000;
-	  f intensity = 1.000000;
-	  b occlude_geometry = false;
-	  b on_timer = false;
-	  f outer_radius = 10.000000;
-		[position]
-		{
-		  x node = 0xC153D6B9;
-		  f x = 0.398407;
-		  f y = 0.252613;
-		  f z = -0.135239;
-		}
-	}
 	[t:point,n:light_0x55d9a5a7]
 	{
 	  b active = true;
@@ -474,13 +453,13 @@
 	  f intensity = 1.000000;
 	  b occlude_geometry = false;
 	  b on_timer = false;
-	  f outer_radius = 10.000000;
+	  f outer_radius = 6.000000;
 		[position]
 		{
-		  x node = 0x370DCAEB;
-		  f x = 0.090179;
-		  f y = 4.691681;
-		  f z = -1.834427;
+		  x node = 0xD05EE418;
+		  f x = -1.612442;
+		  f y = 9.371531;
+		  f z = 0.215607;
 		}
 	}
 	[t:point,n:light_0xbe6caf18]
@@ -672,27 +651,6 @@
 		  f z = -0.196762;
 		}
 	}
-	[t:point,n:light_0xeb13b18f]
-	{
-	  b active = true;
-	  b affects_actors = true;
-	  b affects_items = true;
-	  b affects_terrain = true;
-	  x color = 0xFFFFFFFF;
-	  b draw_shadow = false;
-	  f inner_radius = 0.000000;
-	  f intensity = 1.000000;
-	  b occlude_geometry = false;
-	  b on_timer = false;
-	  f outer_radius = 10.000000;
-		[position]
-		{
-		  x node = 0x3BF79AF1;
-		  f x = 3.060883;
-		  f y = 0.306374;
-		  f z = 0.276409;
-		}
-	}
 	[t:point,n:light_0xecb0ae96]
 	{
 	  b active = true;
@@ -775,27 +733,6 @@
 		  f x = -2.636809;
 		  f y = 3.106152;
 		  f z = 0.043777;
-		}
-	}
-	[t:point,n:light_0xf193ebd2]
-	{
-	  b active = true;
-	  b affects_actors = true;
-	  b affects_items = true;
-	  b affects_terrain = true;
-	  x color = 0xFFFFFFFF;
-	  b draw_shadow = false;
-	  f inner_radius = 0.000000;
-	  f intensity = 1.000000;
-	  b occlude_geometry = false;
-	  b on_timer = false;
-	  f outer_radius = 10.000000;
-		[position]
-		{
-		  x node = 0xCA04C79B;
-		  f x = 3.362986;
-		  f y = 0.348656;
-		  f z = 0.127188;
 		}
 	}
 	[t:point,n:light_0xfaaf8841]
