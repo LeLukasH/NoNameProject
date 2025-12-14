@@ -14,8 +14,8 @@
 	}
 	[placement]
 	{
-	  q orientation = 0,1,0,0;
-	  p position = -1.18509,-4,-1.19543,0xe25a5f6c;
+	  q orientation = 0,0.707107,0,0.707107;
+	  p position = -1.72872,0,-0.974579,0xc0e8abc5;
 	}
 }
 [t:cmd_alignment_changer,n:0x00200104]
@@ -55,7 +55,27 @@
 	[placement]
 	{
 	  q orientation = 0,1,0,0;
-	  p position = 0.870575,0,1.37034,0x5ffea940;
+	  p position = 1.27109,0,1.18871,0x5ffea940;
+	}
+}
+[t:cmd_alignment_changer,n:0x00200116]
+{
+	[cmd_dumb_guy]
+	{
+	  b change_collide = true;
+	  b change_invincibility = true;
+	  b change_may_attack = true;
+	  b change_may_attacked = true;
+	  b change_visibility = true;
+	  b collide_spawn = false;
+	  b invincible_spawn = true;
+	  i start_state = 1;
+	  x target_actor = 0x00200112;
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 0.528425,0,-1.91528,0xd8d6048e;
 	}
 }
 [t:cmd_alignment_changer,n:0x0020010c]
@@ -75,6 +95,6 @@
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = 1.63031,0,1.48242,0xb1059130;
+	  p position = 0.704149,0,-1.81015,0xb1059130;
 	}
 }

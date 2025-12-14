@@ -204,6 +204,36 @@
 	  p position = -0.842194,0,0.0432596,0x5ffea940;
 	}
 }
+[t:trigger_generic,n:0x00200115]
+{
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = send_world_message("we_req_delete",0x00200113,0f,"default","every",0), doc("delete decoy");
+				action* = send_world_message("we_req_activate",0x00200116,0f,"default","every",0), doc("enable actor");
+			  b can_self_destruct = true;
+				condition* = receive_world_message("we_req_activate",0,"on_first_message");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = true;
+			  b start_active = true;
+			}
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = 0.0325699,0,0.493774,0xd8d6048e;
+	}
+}
 [t:trigger_generic,n:0x00200106]
 {
 	[common]
@@ -231,7 +261,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -0.466894,0,-0.520966,0xd8d6048e;
+	  p position = -0.1408,0,-0.538757,0xb1059130;
 	}
 }
 [t:use_point,n:0x002000b3]

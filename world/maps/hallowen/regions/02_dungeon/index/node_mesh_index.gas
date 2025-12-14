@@ -41,11 +41,14 @@
 	0x00200622 = t_xxx_dgn_wal_test-archway-a;
 	0x00200625 = t_xxx_dgn_wal_test-ex-pillar-a;
 	0x00200627 = t_xxx_dgn_wal_test-ex-thick-a;
+	0x00200e57 = t_sd_cnr_ext_ccav_04-v0;
+	0x00200e58 = t_sd_cnr_ext_ccav_04-v1;
 	0x00200e5a = t_sd_cnr_ext_ccav_08-v0;
 	0x00200e61 = t_sd_cnr_ext_cnvx_04-v1;
 	0x00200e96 = t_sd_flr_04x04-v0;
 	0x00200ea8 = t_sd_wal_04-tx-tnl-door-top;
 	0x00200eaa = t_sd_wal_04-tx-tnl;
+	0x00200eb4 = t_sd_wal_ext_04-v0;
 	0x00200ebf = t_sd_wal_ext_08-v0;
 	0x00200ed4 = t_sd_wal_int_04-doorway-v0;
 	0x00200f3d = t_sd_tnl-deadend;
