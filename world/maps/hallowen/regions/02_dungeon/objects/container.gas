@@ -113,6 +113,45 @@
 	  p position = -3.03737,-0.575438,0,0xa0a0aa6e;
 	}
 }
+[t:ann_r02_casket_stone,n:0x002000e8]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = 1.16176,0,-0.0730286,0xef127b83;
+		use_point_scids = 0x002000ad;
+	}
+}
+[t:ann_r02_casket_stone,n:0x00200102]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,1,0,0;
+	  p position = -1.46065,0,0.133644,0x4359d61c;
+		use_point_scids = 0x002000ab;
+	}
+}
+[t:ann_r02_casket_stone,n:0x00200101]
+{
+	[inventory]
+	{
+	  b drop_at_use_point = true;
+	}
+	[placement]
+	{
+	  q orientation = 0,8.9407e-008,0,1;
+	  p position = -0.828621,0,0.438034,0x08ef18ed;
+		use_point_scids = 0x002000ac;
+	}
+}
 [t:ann_r02_barrel,n:0x002000d4]
 {
 	[placement]
@@ -183,45 +222,6 @@
 	[placement]
 	{
 	  p position = -1.54305,0,0.425934,0xaa709f56;
-	}
-}
-[t:ann_r02_casket_stone,n:0x002000e8]
-{
-	[inventory]
-	{
-	  b drop_at_use_point = true;
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,0;
-	  p position = 1.16176,0,-0.0730286,0xef127b83;
-		use_point_scids = 0x002000ad;
-	}
-}
-[t:ann_r02_casket_stone,n:0x00200102]
-{
-	[inventory]
-	{
-	  b drop_at_use_point = true;
-	}
-	[placement]
-	{
-	  q orientation = 0,1,0,0;
-	  p position = -1.46065,0,0.133644,0x4359d61c;
-		use_point_scids = 0x002000ab;
-	}
-}
-[t:ann_r02_casket_stone,n:0x00200101]
-{
-	[inventory]
-	{
-	  b drop_at_use_point = true;
-	}
-	[placement]
-	{
-	  q orientation = 0,8.9407e-008,0,1;
-	  p position = -0.828621,0,0.438034,0x08ef18ed;
-		use_point_scids = 0x002000ac;
 	}
 }
 [t:ann_r02_sarcophagus,n:0x00200109]

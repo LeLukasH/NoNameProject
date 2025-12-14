@@ -85,27 +85,20 @@
 	mood_name = m_halloween_boss_hellfire;
 	transition_time = 1.5f; 
 
-	// --- KRVAVÉ POZADIE ---
 	[fog]
 	{
-		fog_active = true;
-
-		fog_color = 0xFF400505; 
-		
-		fog_density = 0.6;
-		
-		
-		fog_near_dist = 12.0;
-		fog_far_dist = 60.0;
-		
-		fog_lowdetail_near_dist = 12.0;
-		fog_lowdetail_far_dist = 50.0;
+		fog_near_dist		= 25.0f;
+		fog_far_dist		= 35.0f;
+		fog_lowdetail_near_dist		= 25.0f;
+		fog_lowdetail_far_dist		= 30.0f;
+		fog_color = 0xFF400505;
+		fog_density			= 0.5f;
 	}
 
 
 	[music]
 	{
-		ambient_track = s_m_boss;  // Tvoja hudba
+		ambient_track = s_m_boss;
 		
 
 		room_type = rt_arena;
