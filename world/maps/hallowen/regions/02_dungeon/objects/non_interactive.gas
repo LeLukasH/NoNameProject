@@ -307,7 +307,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.707107,0,0.707107;
-	  p position = -1.36493,0.17853,-1.15549,0xbed32a2a;
+	  p position = -1.36493,-1.5,-1.15549,0xbed32a2a;
 	}
 }
 [t:rock_glb_wet_04,n:0x00200024]
@@ -342,6 +342,22 @@
 	  p position = 1.89954,-0.2,1.97408,0x1f00b821;
 	}
 }
+[t:stalagmite_cav_06,n:0x00200085]
+{
+	[placement]
+	{
+	  q orientation = -0.707107,-3.09086e-008,0.707107,3.09086e-008;
+	  p position = -1.93345,0,0.886166,0x837be264;
+	}
+}
+[t:stalagmite_cav_07,n:0x0020007a]
+{
+	[placement]
+	{
+	  q orientation = 0.694658,1.6939e-007,0.71934,1.71736e-007;
+	  p position = 1.89303,8.33273,-1.41298,0x5ca7cad8;
+	}
+}
 [t:lamp_glb_post_03,n:0x002000b5]
 {
 	[placement]
@@ -356,6 +372,14 @@
 	{
 	  q orientation = 0,0,0.258819,0.965926;
 	  p position = 2.77602,-0.773437,-1.01808,0x5ca7cad8;
+	}
+}
+[t:stalagmite_cav_06,n:0x00200081]
+{
+	[placement]
+	{
+	  q orientation = 1,-4.84288e-008,0,0;
+	  p position = 1.52914,8.30755,-0.0314164,0x264655ad;
 	}
 }
 [t:rock_glb_wet_04,n:0x00200021]
@@ -976,7 +1000,7 @@
 {
 	[placement]
 	{
-	  p position = 1.49419,1.57605,1.4755,0x4f57bfde;
+	  p position = 0.904129,1.57605,-0.0558777,0x4f57bfde;
 	}
 }
 [t:lamp_glb_oil_01,n:0x002000ea]
@@ -1307,7 +1331,7 @@
 	[placement]
 	{
 	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -0.296753,-2.53955,-0.804077,0xf53b6dc1;
+	  p position = -0.296753,-1.5,-0.804077,0xf53b6dc1;
 	}
 }
 [t:rock_glb_wet_04,n:0x0020008c]
@@ -1347,29 +1371,5 @@
 	{
 	  q orientation = 0,0.999962,0,0.00872639;
 	  p position = 1.00666,-0.304443,-0.340412,0x77fbf64b;
-	}
-}
-[t:stalagmite_cav_07,n:0x0020007a]
-{
-	[placement]
-	{
-	  q orientation = 0.694658,1.6939e-007,0.71934,1.71736e-007;
-	  p position = 1.89303,8.33273,-1.41298,0x5ca7cad8;
-	}
-}
-[t:stalagmite_cav_06,n:0x00200081]
-{
-	[placement]
-	{
-	  q orientation = 1,-4.84288e-008,0,0;
-	  p position = 1.52914,8.30755,-0.0314164,0x264655ad;
-	}
-}
-[t:stalagmite_cav_06,n:0x00200085]
-{
-	[placement]
-	{
-	  q orientation = -0.707107,-3.09086e-008,0.707107,3.09086e-008;
-	  p position = -2.46013,8.53613,-0.244591,0x20a9697d;
 	}
 }

@@ -20,39 +20,6 @@
 	  p position = 0.0211353,0,-1.31963,0xbb7e7976;
 	}
 }
-[t:use_point,n:0x002000bc]
-{
-	[aspect]
-	{
-	  f scale_multiplier = 5;
-	}
-	[common]
-	{
-		[instance_triggers]
-		{
-			[*]
-			{
-				action* = mood_change("spooky");
-			  b can_self_destruct = true;
-				condition* = party_member_within_node(0x00000002,-1,-1,-1,"on_every_enter");
-			  f delay = 0.000000;
-			  b flip_flop = false;
-			  b multi_player = true;
-			  b no_trig_bits = false;
-				occupants_group = ;
-			  f reset_duration = 0.000000;
-			  b single_player = true;
-			  b single_shot = false;
-			  b start_active = true;
-			}
-		}
-	}
-	[placement]
-	{
-	  q orientation = 0,-0.707107,0,0.707107;
-	  p position = -1.62675,0,0.149154,0xa9d3961d;
-	}
-}
 [t:use_point,n:0x00200088]
 {
 	[placement]
