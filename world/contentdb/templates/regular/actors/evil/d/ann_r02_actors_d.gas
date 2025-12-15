@@ -251,6 +251,10 @@
 			[die]			{ priority = high; * = s_e_die_spider; }
 			[enemy_spotted]	{ priority = high; * = s_e_call_spider_SED; }
 		}
+		[textures]
+		{
+			0 = b_c_edm_ann_frostnid;
+		}
 	}
 	[attack]
 	{
