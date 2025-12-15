@@ -58107,7 +58107,7 @@
 	  b camera_fade = false;
 	  x guid = 0x987F7C89;
 	  x mesh_guid = 0x00100C26;
-	  x nodelevel = 0xFFFFFFFF;
+	  x nodelevel = 0x00000000;
 	  x nodeobject = 0x00000038;
 	  x nodesection = 0x00000038;
 	  b occludes_camera = true;

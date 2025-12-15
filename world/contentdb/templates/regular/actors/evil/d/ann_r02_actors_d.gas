@@ -161,9 +161,9 @@
 	}
 	[aspect]
 	{
-		experience_value = 5;
-		life = 7;
-		max_life = 7;
+		experience_value = 15;
+		life = 10;
+		max_life = 10;
 		mana = 4;
 		max_mana = 4;
 		scale_base = 0.90;
@@ -200,9 +200,9 @@
 	}
 	[aspect]
 	{
-		experience_value = 20;
-		life = 13;
-        max_life = 13;
+		experience_value = 25;
+		life = 18;
+        max_life = 18;
         mana = 8;
 		max_mana = 8;
 	}
@@ -239,9 +239,9 @@
 	}
 	[aspect]
 	{
-		experience_value = 51;
-		life = 19;
-        max_life = 19;
+		experience_value = 41;
+		life = 24;
+        max_life = 24;
         mana = 8;
 		max_mana = 8;
 		material = ice;

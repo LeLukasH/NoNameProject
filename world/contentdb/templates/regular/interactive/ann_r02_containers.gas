@@ -69,7 +69,7 @@
 	{
 		[pcontent]
 		{
-			[oneof*]
+			[all*]
 			{
 				[oneof*]
 				{
@@ -126,7 +126,7 @@
 	{
 		[pcontent]
 		{
-			[oneof*]
+			[all*]
 			{
 				[oneof*]
 				{
@@ -166,7 +166,7 @@
 	{
 		[pcontent]
 		{
-			[oneof*]
+			[all*]
 			{
 				[oneof*]
 				{
