@@ -98,7 +98,7 @@
 
 	[music]
 	{
-		ambient_track = s_m_boss;
+		ambient_track = s_m_boss_01;
 		
 
 		room_type = rt_arena;
