@@ -161,7 +161,7 @@
 	}
 	[aspect]
 	{
-		experience_value = 15;
+		experience_value = 12;
 		life = 10;
 		max_life = 10;
 		mana = 4;
@@ -172,11 +172,11 @@
 	[attack]
 	{
 		attack_range = 0.5;
-		damage_max = 6;
-		damage_min = 3;
+		damage_max = 9;
+		damage_min = 5;
 	}
 	[common] { screen_name="Bitey Boo"; }
-	[defend] { defense=12; }
+	[defend] { defense=20; }
 	[mind] 
 	{ 
 		jat_fidget	= world\ai\jobs\common\job_fidget.skrit;
@@ -209,8 +209,8 @@
 	[attack]
 	{
 		attack_range = 0.5;
-		damage_max = 10;
-		damage_min = 5;
+		damage_max = 12;
+		damage_min = 7;
 	}
 	[common] { screen_name="Slippy"; }
     [defend] { defense=14; }
@@ -239,7 +239,7 @@
 	}
 	[aspect]
 	{
-		experience_value = 41;
+		experience_value = 35;
 		life = 24;
         max_life = 24;
         mana = 8;
@@ -259,8 +259,8 @@
 	[attack]
 	{
 		attack_range = 0.5;
-		damage_max = 13;
-		damage_min = 3;
+		damage_max = 16;
+		damage_min = 8;
 	}
 	[inventory]
 	{

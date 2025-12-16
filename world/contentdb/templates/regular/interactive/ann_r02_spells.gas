@@ -8,7 +8,7 @@
 	{
 		ammo_attach_bone = weapon_grip;
 		ammo_template = ann_r02_spell_red;
-		damage_max = 12;
+		damage_max = 16;
 		damage_min = 8;
 	}
 	[magic]

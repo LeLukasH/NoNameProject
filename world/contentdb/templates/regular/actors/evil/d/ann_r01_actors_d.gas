@@ -14,8 +14,8 @@
 	}
 	[aspect]
 	{
-		experience_value = 1;
-		life = 1;
+		experience_value = 2;
+		life = 2;
 		max_life = 1;
 		mana = 10;
 		max_mana = 10;
@@ -30,8 +30,8 @@
 	[attack]
 	{
 		attack_range = 1;
-		damage_max = 2;
-		damage_min = 1;
+		damage_max = 4;
+		damage_min = 2;
 		reload_delay = 1;
 	}
 	[body]
@@ -122,9 +122,9 @@
 	}
 	[aspect]
 	{
-		experience_value = 3;
-		life = 7;
-        max_life = 7;
+		experience_value = 9;
+		life = 9;
+        max_life = 9;
         mana = 2;
         max_mana = 2;
         textures:0 = b_c_edm_wf;
@@ -174,9 +174,9 @@
 	}
 	[aspect]
 	{
-		experience_value = 5;
-		life = 11;
-		max_life = 11;
+		experience_value = 12;
+		life = 12;
+		max_life = 12;
 		mana = 6;
 		max_mana = 6;
 		model = m_c_edm_kd_pos_1;
