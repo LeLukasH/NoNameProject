@@ -7093,7 +7093,7 @@
 	[placement]
 	{
 	  q orientation = 0,0.173648,0,0.984808;
-	  p position = -6.74997,-1,1.36942,0x463d53e4;
+	  p position = -6.79021,-1,1.28476,0x463d53e4;
 	}
 }
 [t:stand_csl_01,n:0x0010002d]
@@ -10314,7 +10314,7 @@
 {
 	[placement]
 	{
-	  p position = -16.1018,-2.5,7.31241,0xc2748e33;
+	  p position = -15.9767,-2.5,7.17856,0xc2748e33;
 	}
 }
 [t:tree_grs_maple_yellow_01,n:0x00100acd]
@@ -16817,7 +16817,8 @@
 {
 	[placement]
 	{
-	  p position = 0.293229,0,2.88988,0x6ff60851;
+	  q orientation = 0,1,0,0;
+	  p position = -7.57813,-4.65,-5.43902,0xa6e1a876;
 	}
 }
 [t:tree_grs_maple_yellow_01,n:0x00100920]

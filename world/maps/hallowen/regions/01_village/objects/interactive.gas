@@ -25,6 +25,11 @@
 }
 [t:door_glb_keep_right_01,n:0x001009d7]
 {
+	[aspect]
+	{
+	  b is_selectable = false;
+	  b is_usable = false;
+	}
 	[placement]
 	{
 	  p position = -0.0791779,-3.5,2.07861,0x2b2d3ff0;

@@ -60924,8 +60924,8 @@
 	  x guid = 0xA094E466;
 	  x mesh_guid = 0x00100E39;
 	  x nodelevel = 0x00000000;
-	  x nodeobject = 0x00000028;
-	  x nodesection = 0x00000028;
+	  x nodeobject = 0x00000038;
+	  x nodesection = 0x00000038;
 	  b occludes_camera = true;
 	  b occludes_light = true;
 		texsetabbr = grs01;
@@ -89625,8 +89625,8 @@
 	  x guid = 0xE81AE8DF;
 	  x mesh_guid = 0x00100E3A;
 	  x nodelevel = 0xFFFFFFFF;
-	  x nodeobject = 0xFFFFFFFF;
-	  x nodesection = 0x00000001;
+	  x nodeobject = 0x00000028;
+	  x nodesection = 0x00000028;
 	  b occludes_camera = true;
 	  b occludes_light = true;
 		texsetabbr = grs01;
