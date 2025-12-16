@@ -253,6 +253,8 @@
 	}
 	[aspect]
 	{
+		life = 46;
+		max_life = 46;
 		gold_value = 198;
 		model = m_c_gah_fb_pos_a1;
 		[textures]
