@@ -25,6 +25,8 @@
 	0x005007b8 = t_xxx_keep_wall_portal-base-a;
 	0x005007c5 = t_xxx_keep_wall_thick-tall-a;
 	0x005007c9 = t_xxx_keep_wall_thin-tall-a;
+	0x005007e1 = t_xxx_keep_spiral-floor-base-a;
+	0x005007e2 = t_xxx_keep_spiral-floor-base-plug-a;
 	0x005008dd = t_xxx_ruin_block-04x04-a;
 	0x005008df = t_xxx_ruin_block-04x04-c;
 	0x005008e1 = t_xxx_ruin_flr-04x04-b;
