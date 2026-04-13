@@ -53,6 +53,46 @@
 	  p position = 1.24867,0,-0.923929,0xb4864722;
 	}
 }
+[t:hein,n:0x00100392]
+{
+	[aspect]
+	{
+	  f scale_base = 0.5;
+	}
+	[common]
+	{
+		[instance_triggers]
+		{
+			[*]
+			{
+				action* = change_quest_state("quest_candy_snatcher","active",1);
+			  b can_self_destruct = true;
+				condition* = has_go_in_inventory("local",0x00000000,"");
+			  f delay = 0.000000;
+			  b flip_flop = false;
+			  b multi_player = true;
+			  b no_trig_bits = false;
+				occupants_group = ;
+			  f reset_duration = 0.000000;
+			  b single_player = true;
+			  b single_shot = false;
+			  b start_active = true;
+			}
+		}
+	}
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_child;
+		}
+	}
+	[placement]
+	{
+	  q orientation = 0,-0.707107,0,0.707107;
+	  p position = -0.526886,0,-1.41364,0xc0e3edbd;
+	}
+}
 [t:ann_r01_shop_armor,n:0x00100a07]
 {
 	[conversation]
@@ -89,6 +129,24 @@
 	[placement]
 	{
 	  p position = 1.63428,0,0.489647,0xd06775d4;
+	}
+}
+[t:ann_r01_farmer_male_old,n:0x00100391]
+{
+	[conversation]
+	{
+		[conversations]
+		{
+			* = conversation_farmer;
+		}
+	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\common\job_talk.skrit;
+	}
+	[placement]
+	{
+	  p position = -1.37004,-1.9,2.22578,0x892f7f32;
 	}
 }
 [t:ann_r01_spider,n:0x0010035c]
@@ -144,12 +202,17 @@
 	{
 		[conversations]
 		{
+			* = conversation_innkeeper;
 			* = shop_potions;
 		}
 	}
+	[mind]
+	{
+		jat_talk = world\ai\jobs\actors\good\job_talk_my_npc.skrit;
+	}
 	[placement]
 	{
-	  p position = -8.66191,-1.5,-3.85974,0xc2748e33;
+	  p position = -8.58388,-1.5,-3.86833,0xc2748e33;
 		use_point_scids = 0x00100aa5;
 	}
 }
