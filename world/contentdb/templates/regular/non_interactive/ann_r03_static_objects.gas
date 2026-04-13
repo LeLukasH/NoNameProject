@@ -32,3 +32,30 @@
 		}
 	}
 }
+
+[t:template,n:ann_r03_altar]
+{
+	category_name = "indoor";
+	doc = "ann_r03_altar";
+	specializes = non_interactive_blocking;
+	[aspect]
+	{
+		model = m_i_csl_altar-01;
+		scale_base = 2;
+	}
+}
+
+[t:template,n:ann_bed_csl_royal-love]
+{
+	category_name = "indoor";
+	doc = "bed_royal-love";
+	specializes = non_interactive_blocking;
+	[aspect]
+	{
+		model = m_i_csl_royal-bed;
+		[textures]
+		{
+			0 = b_i_csl_royal-love-bed;
+		}
+	}
+}

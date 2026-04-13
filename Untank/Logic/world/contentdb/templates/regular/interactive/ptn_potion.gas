@@ -595,16 +595,16 @@
 [t:template,n:potion_rejuvenation_large]
 {
 	specializes         = base_potion_good;
-	doc                 = "potion_rejuvenation_lrg";
+	doc                 = "potion_regret";
 	category_name       = "potions";
 
 	aspect:model        = m_i_glb_bottle-potion;
-	aspect:textures:0   = b_i_glb_bottle-purple-01;
+	aspect:textures:0   = b_i_glb_bottle-slurm;
    	aspect:gold_value   = 140;
 
 	[common]
 	{
-		screen_name  = "Large Rejuvenation Potion";
+		screen_name  = "Regret Potion";
 		[template_triggers]
 		{
 			[*]

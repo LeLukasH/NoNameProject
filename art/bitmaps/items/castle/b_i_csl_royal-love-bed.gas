@@ -1,0 +1,7 @@
+[t:tsd,n:b_i_csl_royal-love-bed]
+{
+  b dither = true;
+  b hasalpha = true;
+    layer1texture1 = b_i_csl_royal-love-bed;
+  i texturedetail = 0;
+}

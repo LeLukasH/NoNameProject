@@ -1,0 +1,7 @@
+[t:tsd,n:b_d_slurm]
+{
+  b dither = true;
+  b hasalpha = true;
+    layer1texture1 = b_d_slurm;
+  i texturedetail = 0;
+}
