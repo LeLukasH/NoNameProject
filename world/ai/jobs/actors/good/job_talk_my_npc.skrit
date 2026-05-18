@@ -1,4 +1,3 @@
-
 Go			m_Go$;
 GoMind		m_Mind$;
 GoBody  	m_Body$;
@@ -73,24 +72,24 @@ state Talk$
 	event OnEnterState$
 	{
 		// ------------------------------------------------------------------
-		// LOGIKA PRE KRČMÁRA (Quest + Obchod)
+		// LOGIKA PRE KRČMÁRA (Cez GameAuditor premennú)
 		// ------------------------------------------------------------------
-		if ( Victory.GetQuestOrder( "quest_main_story" ) >= 1 )
+		if ( GameAuditor.GetDb.GetBool( "region_01_bat_tender_talked_to" ) )
 		{
-			// Ak hráč už quest prijal, ale ešte nebol v podzemí -> Otvorí obchod
+			// Ak je premenná true (už sme s ním hovorili) -> Otvorí obchod
 			m_Go$.GetConversation.RSSelectConversation( "shop_potions" );
 		}
 		else
 		{
-			// Ak hráč ešte quest NEMA (prvé kliknutie) -> Zadá quest
+			// Prvé kliknutie -> Zadá quest a zapíše do databázy, že sme s ním hovorili
 			m_Go$.GetConversation.RSSelectConversation( "conversation_innkeeper" );
+			GameAuditor.GetDb.SetBool( "region_01_bat_tender_talked_to", true );
 		}
 
 		TryAnim$('talk');
 		m_Go$.GetConversation.RSActivateDialogue();
 	}
 }
-
 
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -108,5 +107,3 @@ state Exiting$
 		m_Job$.MarkForDeletion();
 	}
 }
-
-
